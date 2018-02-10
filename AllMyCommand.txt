@@ -1,0 +1,24 @@
+a)  git init
+
+b)  git add firstfile.txt
+    git add secondfile.txt
+    git add thirdfile.txt
+
+d) Two Scenarios could be done:
+      1) delete by git rm secondfile.txt --cached
+        and restore by : git add second.txt
+      3) delete by git rm secondfile.txt --f
+      2) delete by file manager (right click -> delete)
+        and restore by : git checkout -- secondfile.txt
+e) git commit -m "Commiting the three txt files"
+f) git remote add origin https://github.com/AnwarLabib/Sprint0.git
+   git push -u origin master
+g) touch README.md
+h) git branch ReadMe
+   git checkout ReadMe
+i) git add README.md
+j) git commit -m "Commiting the README.md file"
+k) git checkout master
+   git merge ReadMe
+l) git add AllMyCommand.txt
+   git commit -m "Commiting the AllMyCommand.txt"
